@@ -8,7 +8,7 @@ function findingprime (ArrayInput){
         if (num <= 3) return true;
         //If divisible by 2 or 3, it's not prime
         if (num% 2 === 0 || num% 3 === 0)return false;
-        let M = 2;
+        let M = 5;
         //chekingg dvisible for numbers 
         while (M * M <= num){
             if (num% M === 0 || num% (M+2)===0)return false;
@@ -22,7 +22,7 @@ function findingprime (ArrayInput){
 }
 
 const ArrayInput = [1,2,3,4,5,6,7,8,9,10];
-//find prime nummbers
+//find primenumbers
 const PrimeNumber =findingprime (ArrayInput);
-//Print the prime numbers
+//Print the primenumbers
 console.log(PrimeNumber);

@@ -1,4 +1,4 @@
-//Funcnction Declaration
+//function Declaration 
 function generateArray (first,second) {
      //If start is greater than end, swap them 
    if (first > second) {
